@@ -156,6 +156,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+   "kidzkornerdeploymentbackend.onrender.com", "kidzkorner.onrender.com"
 ]
 
 # Add Render deployment URL if CORS_ORIGIN_WHITELIST is set
